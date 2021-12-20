@@ -1,0 +1,42 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 530px;
+    height: 700px;
+    border: 5px solid black;
+}
+
+#screenText {
+    font-size: 50px;
+    text-align: right;
+    width: 200px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
