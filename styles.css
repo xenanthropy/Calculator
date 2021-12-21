@@ -17,7 +17,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: rgb(91, 91, 218);
+    gap: 10px;
 }
 
 #container {
@@ -27,9 +29,12 @@ body {
     align-items: center;
     width: 530px;
     height: 700px;
-    border: 5px solid black;
+    border: 3px solid black;
     gap: 20px;
     background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px;
+    margin-top: 30px;
 }
 
 #screenText {
@@ -59,5 +64,14 @@ button {
 
 .operator {
     background-color: rgb(126, 126, 126);
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 8px;
+    margin-top: 80px;
 }
 
